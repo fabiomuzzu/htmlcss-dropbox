@@ -96,3 +96,13 @@ header{
     width: calc(100% / 2);
     height: auto;
 }
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
+
+.col-ft{
+    width: calc(100% / 5);
+}
