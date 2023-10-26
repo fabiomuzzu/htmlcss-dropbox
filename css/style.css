@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* TOGLIERE ALTEZZE APPENA MESSO CONTENUTO */
+/* COMMON  */
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.gap5{
+    gap: 1px;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-33{
+    width: calc(100% / 3);
+    flex-direction: column;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.content{
+    height: auto;
+}
+
+/* BORDI */
+.border{
+    border: 1px solid black;
+}
+
+/* COLORI BG DA TOGLIERE */
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.pink{
+    background-color: pink;
+}
+
+
+/* CSS MAX WIDTH */
+.mw1400{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.mw1200{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER DARE POSITION FIXED E Z-INDEX 1*/
+header{
+    height: 80px;
+    background-color: blue;
+}
+
+/* MAIN */
