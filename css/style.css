@@ -84,8 +84,16 @@ body{
     gap: 10px 10px;
 }
 
+.gap20{
+    gap: 20px 20px;
+}
+
 img{
     width: 100%;
+}
+
+.img-adapter{
+    width: 90%;
 }
 
 /* sezione padding */
@@ -115,9 +123,6 @@ img{
     background-color: #b4d0e7;
 }
 
-.pink{
-    background-color: pink;
-}
 .purple{
     background-color: purple;
 }
@@ -283,6 +288,19 @@ main h1{
     padding: 10px 15px;
     margin-top: 40px;
     border: 2px solid black; ;
+}
+
+/* SEZIONE 4 */
+#section-4{
+    margin-top: 150px;
+}
+
+#section-4 h2{
+    font-size: 40px;
+}
+
+#section-4 h3{
+    font-weight: 900;
 }
 
 /* CSS SQUARE SCACCHIERA */
