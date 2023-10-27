@@ -25,7 +25,7 @@ body{
 }
 
 .col-33{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
     flex-direction: column;
 }
 
@@ -60,10 +60,25 @@ body{
 
 .content{
     width: 100%;
-    height: auto;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.gap10{
+    gap: 10px 10px;
 }
 
 /* sezione padding */
+.padding10{
+    padding: 10px 0;
+}
+
 .padding20{
     padding: 20px 0;
 }
@@ -72,19 +87,20 @@ body{
     padding: 50px 0;
 }
 
+.padding20-20{
+    padding: 20px 20px;
+}
 
 /* BORDI */
 .border{
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 
 /* COLORI BG DA TOGLIERE */
 .lightblue{
     background-color: #b4d0e7;
 }
-.green{
-    background-color: green;
-}
+
 .orange{
     background-color: orange;
 }
@@ -189,12 +205,17 @@ header ul li a{
 
 main h1{
     font-size: 90px;
-    font-weight: 900;
+    color: black;    
+    text-shadow: 3px 0 black;
+    letter-spacing: 5px;
+    font-weight:  900;
 }
 
 #s1-arrow{
     font-size: 60px;
-    font-weight: bold;
+    color: black;    
+    text-shadow: 2px 0 black;
+    font-weight: 900;
 }
 
 #s1-arrow-div{
@@ -203,8 +224,43 @@ main h1{
 
 /* SEZIONE 2 */
 #section-2{
-    margin-top: 200px;
+    margin-top: 150px;
 }
+
+#section-2 h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#year-invoice{
+    margin-left: 50px;
+}
+
+.try{
+    text-decoration: none;
+    background-color: rgb(0, 119, 255);
+    padding: 10px 20px;
+    color: white;
+}
+
+.users{
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+
+#section-2 h3{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.euro{
+    font-weight: 900;
+}
+
+.month{
+    color: gray;
+}
+
 /* CSS SQUARE SCACCHIERA */
 .square{
     background-color: yellow;
