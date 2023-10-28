@@ -326,6 +326,19 @@ main h1{
     width: 50%;
 }
 
+/* SEZIONE 6 */
+#section-6 h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#section-6 a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 40px;
+    color: black;
+}
+
 /* CSS SQUARE SCACCHIERA */
 .square{
     background-color: yellow;
