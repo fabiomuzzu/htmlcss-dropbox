@@ -96,6 +96,9 @@ img{
     width: 90%;
 }
 
+.block{
+    display: block;
+}
 
 .relative{
     position: relative;
@@ -110,6 +113,7 @@ img{
 .t-t{
     transform: translate(-50%, -50%);
 }
+
 /* sezione padding */
 .padding10{
     padding: 10px 0;
@@ -140,7 +144,7 @@ img{
     border-bottom: 1px solid black;
 }
 
-/* COLORI BG DA TOGLIERE */
+/* COLORI BG */
 .lightblue{
     background-color: #b4d0e7;
 }
@@ -282,10 +286,6 @@ main h1{
     margin: 3px 7px;
 }
 
-#year-invoice{
-    margin-left: 50px;
-}
-
 .try{
     text-decoration: none;
     background-color: rgb(0, 119, 255);
@@ -307,6 +307,37 @@ main h1{
     color: gray;
 }
 
+/* CSS Input Radio */
+label input[type="radio"] {
+    display: none;
+}
+
+label input[type="radio"] ~ span {
+    position: relative;
+    display: inline-block;
+    padding: 5px 25px;
+}
+
+label input[type="radio"] ~ span:before {
+    margin-top: 6px;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    transition: all 300ms ease-in-out;
+}
+
+label input[type="radio"]:checked ~ span:before {
+    border: 5px solid #29d;
+}
 
 
 /* SEZIONE 3 */
