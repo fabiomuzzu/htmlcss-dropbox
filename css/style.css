@@ -419,6 +419,10 @@ label input[type="radio"]:checked ~ span:before {
     height: calc(100vw / 6);
 }
 
+#central-square{
+    height: calc(100vw / 6 *2);
+}
+
 /* FOOTER */
 footer{
     background-color: black;
