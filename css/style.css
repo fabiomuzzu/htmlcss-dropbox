@@ -421,6 +421,7 @@ label input[type="radio"]:checked ~ span:before {
 
 #central-square{
     height: calc(100vw / 6 *2);
+    overflow: scroll;
 }
 
 /* FOOTER */
